@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keenBlip.Web", "keenBlip.Web\keenBlip.Web.csproj", "{A29E7A94-D05F-47D5-A77A-92B08C509E2C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "keenBlip.Web", "keenBlip.Web\keenBlip.Web.csproj", "{A29E7A94-D05F-47D5-A77A-92B08C509E2C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keenBlip.Entities", "keenBlip.Entities\keenBlip.Entities.csproj", "{23BC65D0-564D-445A-8DE3-CEE6CE99AE4C}"
 EndProject
@@ -24,6 +24,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keenBlip.Web.Components", "keenBlip.Web.Components\keenBlip.Web.Components.csproj", "{919C6FD2-30C7-4289-9EFF-EB82A6DA4758}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keenBlip.Web.Components.Tests", "keenBlip.Web.Components.Tests\keenBlip.Web.Components.Tests.csproj", "{3B69C9FD-B1CA-48D9-A372-991BBC2A9A3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keenBlip.Models", "keenBlip.Models\keenBlip.Models.csproj", "{6F8F79B1-2AF0-4895-AA2B-397AE0CAC8D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keenBlip.Models.Tests", "keenBlip.Models.Tests\keenBlip.Models.Tests.csproj", "{17C3604D-8E72-4B6A-A32E-EFDFA16C3D15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "keenBlip.WordSmith.Api", "keenBlip.WordSmith.Api\keenBlip.WordSmith.Api.csproj", "{0F6B655C-6262-48DC-BD7A-F36D01E81F3B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{3B69C9FD-B1CA-48D9-A372-991BBC2A9A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B69C9FD-B1CA-48D9-A372-991BBC2A9A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B69C9FD-B1CA-48D9-A372-991BBC2A9A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8F79B1-2AF0-4895-AA2B-397AE0CAC8D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8F79B1-2AF0-4895-AA2B-397AE0CAC8D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8F79B1-2AF0-4895-AA2B-397AE0CAC8D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8F79B1-2AF0-4895-AA2B-397AE0CAC8D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C3604D-8E72-4B6A-A32E-EFDFA16C3D15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C3604D-8E72-4B6A-A32E-EFDFA16C3D15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C3604D-8E72-4B6A-A32E-EFDFA16C3D15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C3604D-8E72-4B6A-A32E-EFDFA16C3D15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6B655C-6262-48DC-BD7A-F36D01E81F3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6B655C-6262-48DC-BD7A-F36D01E81F3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6B655C-6262-48DC-BD7A-F36D01E81F3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6B655C-6262-48DC-BD7A-F36D01E81F3B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
